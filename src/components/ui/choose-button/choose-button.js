@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export default ChooseButton = styled.button`
+export const ChooseButton = styled.button`
   cursor: pointer;
   display: block;
   font-family: ${(props) => props.theme.fontFamily};

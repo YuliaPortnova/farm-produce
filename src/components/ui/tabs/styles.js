@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import ChooseButton from "/src/components/ui/choose-button/choose-button";
+import {ChooseButton} from "/src/components/ui/choose-button/choose-button";
 
 export const TabButton = styled(ChooseButton)`
   ${(props) =>
